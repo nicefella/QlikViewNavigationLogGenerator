@@ -24,7 +24,7 @@ C:\Program Files\QlikView\Server\QlikViewClients\QlikViewAjax\bin
 C:\ProgramData\QlikTech\QlikViewServer\Extensions\Document
 Also make sure you have enabled the extension in your document (In Document Settings / Extension tab)
 
-4. Create a text object and give its id as "txtUserId" and add =OSUser() extension into it.
+4. Create a text object and give its id as "txtUserId" and add =OSUser() expression into it.
 This is for obtaining current username.
 
 5. Restart IIS and QlikView Settings Services, oh yes you need to run Qlikview under IIS!
