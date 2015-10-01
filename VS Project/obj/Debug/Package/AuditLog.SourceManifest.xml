@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <contentPath path="E:\_ALL\Projects\AuditLog\AuditLog\obj\Debug\Package\PackageTmp" />
+  <setAcl path="E:\_ALL\Projects\AuditLog\AuditLog\obj\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="E:\_ALL\Projects\AuditLog\AuditLog\obj\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

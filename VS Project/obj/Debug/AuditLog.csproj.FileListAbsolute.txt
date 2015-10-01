@@ -1,0 +1,4 @@
+E:\_ALL\Projects\AuditLog\AuditLog\bin\AuditLog.dll
+E:\_ALL\Projects\AuditLog\AuditLog\bin\AuditLog.pdb
+E:\_ALL\Projects\AuditLog\AuditLog\obj\Debug\AuditLog.dll
+E:\_ALL\Projects\AuditLog\AuditLog\obj\Debug\AuditLog.pdb
