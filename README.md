@@ -1,6 +1,6 @@
 # QlikViewNavigationLogGenerator
 
-## Descriptiol
+## Description
 A simple document extension and web service for Logging text object click events throughout the document into daily txt files
 
 ## Introduction
