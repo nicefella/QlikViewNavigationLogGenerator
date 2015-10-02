@@ -1,7 +1,7 @@
 # QlikViewNavigationLogGenerator
 
-## Description
-a simple document extension and web service for Logging text object click events throughout the document into daily txt files
+## Descriptiol
+A simple document extension and web service for Logging text object click events throughout the document into daily txt files
 
 ## Introduction
 Standard QlikView Audit Logs for user interaction does not include Textobject trigger events. 
