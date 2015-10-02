@@ -16,10 +16,10 @@ Installation:
 1. In bin directory, there is a file called : AuditLog.dll
 put this file in 
 C:\Program Files\QlikView\Server\QlikViewClients\QlikViewAjax\bin
-And put 
-Log.aspx into QlikViewAjax folder
+And put Log.aspx into QlikViewAjax folder
 
 2. Edit web.config file in your QlikViewAjax folder and add the following lines between appSettings tags:
+
 <add key="logfilelocation" value="C:\\NavigationLog" />
 
 3. Install document extension to your environment and make sure you deploy iy in the server side by copying the extension into
