@@ -26,6 +26,7 @@ And put Log.aspx into QlikViewAjax folder
 
 3. Install document extension to your environment and make sure you deploy iy in the server side by copying the extension into
 C:\ProgramData\QlikTech\QlikViewServer\Extensions\Document
+
 Also make sure you have enabled the extension in your document (In Document Settings / Extension tab)
 
 4. Create a text object and give its id as "txtUserId" and add =OSUser() expression into it.
