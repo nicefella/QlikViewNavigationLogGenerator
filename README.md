@@ -34,7 +34,7 @@ This is for obtaining current username.
 
 * Restart IIS and QlikView Settings Services, oh yes you need to run Qlikview under IIS!
 
-* Start browsing your document, clicking text objects and see the generated files in the folder you have specified in 2nd step.
+* Start browsing your document, clicking text objects and check if you see the generated files in the folder you have specified in 2nd step.
 
 A typical log file looks like this:
 
