@@ -13,28 +13,28 @@ It includes two seperate projects:
 
 ## Installation:
 
-1. In bin directory, there is a file called : AuditLog.dll
+* In bin directory, there is a file called : AuditLog.dll
 put this file in 
 C:\Program Files\QlikView\Server\QlikViewClients\QlikViewAjax\bin
 And put Log.aspx into QlikViewAjax folder
 
-2. Edit web.config file in your QlikViewAjax folder and add the following lines between appSettings tags:
+* Edit web.config file in your QlikViewAjax folder and add the following lines between appSettings tags:
 
 ```xml
 <add key="logfilelocation" value="C:\\NavigationLog" />
 ```
 
-3. Install document extension to your environment and make sure you deploy iy in the server side by copying the extension into
+* Install document extension to your environment and make sure you deploy iy in the server side by copying the extension into
 C:\ProgramData\QlikTech\QlikViewServer\Extensions\Document
 
 Also make sure you have enabled the extension in your document (In Document Settings / Extension tab)
 
-4. Create a text object and give its id as "txtUserId" and add =OSUser() expression into it.
+* Create a text object and give its id as "txtUserId" and add =OSUser() expression into it.
 This is for obtaining current username.
 
-5. Restart IIS and QlikView Settings Services, oh yes you need to run Qlikview under IIS!
+* Restart IIS and QlikView Settings Services, oh yes you need to run Qlikview under IIS!
 
-6. Start browsing your document, clicking text objects and see the generated files in the folder you have specified in 2nd step.
+* Start browsing your document, clicking text objects and see the generated files in the folder you have specified in 2nd step.
 
 A typical log file looks like this:
 
