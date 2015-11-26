@@ -23,12 +23,15 @@ It includes two seperate projects:
 put this file in 
 C:\Program Files\QlikView\Server\QlikViewClients\QlikViewAjax\bin
 and put Log.aspx into QlikViewAjax folder
+You can also use the pre-built Auditlog.dll file already located in this bin directory.
 
 * Edit web.config file in your QlikViewAjax folder and add the following lines between appSettings tags:
 
 ```xml
 <add key="logfilelocation" value="C:\\NavigationLog" />
 ```
+
+Log files are stored in this configured directory
 
 * Install document extension to your environment by double clicking the .qar file (in Document Extension folder) in server . This will create a new folder in C:\Users\[CurrentUser]\Appdata\Local\Qliktech\QlikView\Extensions\Document and make sure you deploy it also in the server side by copying the same extension directory into
 C:\ProgramData\QlikTech\QlikViewServer\Extensions\Document
