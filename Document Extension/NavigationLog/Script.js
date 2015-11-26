@@ -1,5 +1,6 @@
 	Qva.AddDocumentExtension('NavigationLog', function () {	
 
+		// Document_TX is for text objects, Document_CH is for chart objects, you can use mixed combinations
 		$("div[class^='QvFrame Document_TX']").click(function() { 
   			
   			var  osUser, obj= $(this).attr("class"), 
