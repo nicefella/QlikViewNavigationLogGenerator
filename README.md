@@ -1,18 +1,16 @@
 # QlikViewNavigationLogGenerator
 
 ## Description
-A simple document extension and web service for Logging text object click events throughout the document into daily txt files
+A simple document extension and web service for Logging chart object click events throughout the document into daily txt files
 
 ## Introduction
-Standard QlikView Audit Logs for user interaction does not include Textobject trigger events. 
-So, we can not track user behaviour if you have built a document in which lots of conditional objects 
-and layouts which are triggered to show/hide by clicking text objects.
-This code gives you the opportunity to track all Text object trigger events and log these actions into daily seperated txt files.
+Sometimes, IT demands some sort of audit logs to track which chart objects are used by users and which are not.
+This code gives you the opportunity to track all chart object click events and log these actions into daily seperated txt files. 
 
 ## Files
 It includes two seperate projects:
 1. Visual Studio source code & binaries.
-2. NavigationLog: A QlikView document extension to track which text objects are clicked by which user.
+2. NavigationLog: A QlikView document extension to track which chart objects are clicked by which user.
 
 ## Requirements
 * QlikView Server 11.2+ running on IIS
@@ -32,10 +30,10 @@ and put Log.aspx into QlikViewAjax folder
 <add key="logfilelocation" value="C:\\NavigationLog" />
 ```
 
-* Install document extension to your environment and make sure you deploy iy in the server side by copying the extension into
+* Install document extension to your environment by double clicking the .qar file (in Document Extension folder) in server . This will create a new folder in C:\Users\[CurrentUser]\Appdata\Local\Qliktech\QlikView\Extensions\Document and make sure you deploy it also in the server side by copying the same extension directory into
 C:\ProgramData\QlikTech\QlikViewServer\Extensions\Document
 
-Also make sure you have enabled the extension in your document (In Document Settings / Extension tab)
+* Also make sure you have enabled the extension in your document (In Document Settings / Extension tab)
 
 * Create a text object and give its id as "txtUserId" and add =OSUser() expression into it.
 This is for obtaining current username.
